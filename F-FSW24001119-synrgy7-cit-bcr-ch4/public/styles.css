@@ -1,0 +1,454 @@
+* {
+    margin: 0;
+    padding: 10;
+  }
+  
+  html {
+    font-family: Helvetica;
+  }
+  
+  header {
+    background-color: #f1f3ff;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .wrapper {
+    width: auto;
+    margin: auto;
+    position: relative;
+    display: flex;
+  }
+  
+  /* navbar */
+  header nav {
+    display: flex;
+    list-style: none;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  
+  .logo {
+    align-items: left;
+    text-align: left;
+  }
+  
+  header nav ul {
+    float: right;
+    align-items: left;
+    text-align: right;
+    margin-right: 20px;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-top: 0;
+  }
+  
+  .menu-list {
+    padding: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-right: 1px;
+  }
+  
+  header nav li {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 1px;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+  
+  .register {
+    align-items: center;
+    color: white;
+    text-decoration-color: white;
+    background-color: #5cb85f;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+  }
+  
+  header nav a {
+    text-decoration: none;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+  }
+  
+  .menu-icon {
+    font-size: 20px;
+    display: none;
+  }
+  
+  header section {
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .main-section {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+  }
+  
+  .content {
+    width: 50%;
+    height: 50%;
+    padding: 5px;
+    float: left;
+    padding-top: 50px;
+    padding-right: 10px;
+  }
+  
+  header section img-car {
+    float: left;
+    padding: 100px;
+    width: 100%;
+    padding: auto;
+    padding-left: 10px;
+  }
+  
+  .mulai-sewa {
+    align-items: left;
+    color: white;
+    text-decoration-color: white;
+    background-color: #5cb85f;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+    width: 150px;
+  }
+  
+  .tittle-rent {
+    font-size: 24px;
+  }
+  
+  .content-rent {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-size: 16px;
+  }
+  
+  .our-services {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding: 20px;
+  }
+  
+  .our-services img {
+    align-items: center;
+    float: left;
+    padding: 20px;
+    width: 150%;
+  }
+  
+  .content-our-services {
+    width: 100%;
+    margin-right: 10px;
+    padding-left: 170px;
+    padding-right: 20px;
+    padding-top: 90px;
+    align-items: center;
+  }
+  
+  .tittle-our-services {
+    font-size: 21px;
+    padding-bottom: 15px;
+  }
+  
+  .paragraph-our-services {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  
+  .why-us {
+    align-items: left;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding: 20px;
+  }
+  
+  .tittle-why-us {
+    font-size: 21px;
+    padding-bottom: 15px;
+  }
+  
+  .sub-tittle-why-us {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  
+  .wrapper-why-us {
+    display: flex;
+  }
+  
+  .like-why-us {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .price-why-us {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .hours-why-us {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .profesional-why-us {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .testimonial {
+    align-items: left;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: center;
+    padding-left: 10px;
+    padding: 20px;
+  }
+  
+  .testimonial h1 {
+    padding-bottom: 10px;
+    font-size: 21px;
+  }
+  
+  .testimonial p {
+    padding-bottom: 10px;
+  }
+  
+  .testi1 {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f1f3ff;
+  }
+  
+  .testi2 {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f1f3ff;
+  }
+  
+  .testi3 {
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #f1f3ff;
+  }
+  
+  .section-mulai-sewa {
+    align-items: left;
+    flex-direction: row;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 30px;
+    text-align: center;
+    padding: 50px;
+    background-color: #0d28a6;
+    border-radius: 8px;
+    color: white;
+    text-decoration-color: white;
+  }
+  
+  .section-mulai-sewa h1 {
+    font-size: 21px;
+    padding-bottom: 10px;
+  }
+  
+  .section-mulai-sewa p {
+    font-size: 16px;
+    padding-bottom: 10px;
+  }
+  
+  .section-mulai-sewa h4 {
+    align-items: center;
+    color: white;
+    text-decoration-color: white;
+    background-color: #5cb85f;
+    text-align: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 2px;
+  }
+  
+  .faq {
+    align-items: left;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding: 20px;
+    margin-top: 30px;
+  }
+  
+  .tittle-faq {
+    margin-right: 50px;
+  }
+  
+  .tittle-faq h1 {
+    font-size: 21px;
+    padding-bottom: 10px;
+  }
+  
+  .tittle-faq p {
+    padding-bottom: 10px;
+  }
+  
+  .accordion p {
+    padding-bottom: 10px;
+    border: 1px solid #d0d0d0;
+    border-radius: 8px;
+    padding: 10px;
+  }
+  
+  .menu-footer {
+    justify-content: space-around;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: auto;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding: 20px;
+  }
+  
+  @media only screen and (max-width: 700px) {
+    .register {
+      align-items: center;
+      color: white;
+      text-decoration-color: white;
+      background-color: #5cb85f;
+      text-align: center;
+      padding: 1px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 2px;
+    }
+    .wrapper {
+      width: 100%;
+    }
+    header nav li {
+      display: none;
+      flex-direction: column;
+      float: right;
+      align-items: right;
+      text-align: right;
+      margin-right: 20px;
+      margin-left: auto;
+      position: fixed;
+    }
+    .menu-icon {
+      display: inline-block;
+      align-items: auto;
+      padding: 7px;
+      padding-left: 200px;
+      float: right;
+      align-items: right;
+      text-align: right;
+      margin-right: 0;
+      margin-left: auto;
+      left: -100%;
+      position: right;
+    }
+    header section content,
+    header section img-car {
+      width: 100%;
+    }
+    .main-section {
+      flex-direction: column;
+      align-items: left;
+      padding-bottom: 10px;
+    }
+    .img-car {
+      width: 100%;
+      flex-direction: column;
+      align-items: right;
+      padding-bottom: 10px;
+      padding-top: auto;
+    }
+    .img-woman {
+      width: 100%;
+      flex-direction: column;
+      align-items: right;
+    }
+    .our-services {
+      flex-direction: column;
+      width: 50%;
+      align-items: left;
+    }
+    .main-section {
+      flex-direction: column;
+      align-items: left;
+    }
+    .content-our-services {
+      align-items: left;
+      padding: 20px;
+      padding-right: 10px;
+      width: 100%;
+    }
+    .tittle-whyus {
+      text-align: center;
+    }
+    .wrapper-why-us {
+      flex-direction: column;
+    }
+    .testimonial wrapper {
+      flex-direction: column;
+      align-items: left;
+    }
+    .section-mulai-sewa {
+      margin: 20px;
+    }
+    .faq {
+      flex-direction: column;
+    }
+    .tittle-faq {
+      text-align: center;
+    }
+    .wrapper .menu-footer {
+      flex-direction: column;
+    }
+  }
+  
